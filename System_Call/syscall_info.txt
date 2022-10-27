@@ -1,0 +1,10 @@
+# gcc -Wall -O2 -g -o syscall_bechmark syscall_benchmark.c -> pretvori .c datoteku u executable fajl
+# -Wall gasi warnings
+# -O2 optimizacija klase 2
+# -g Debugging informacije uključiti
+
+# Assembler Code
+# objdump -d syscall_benchmark
+
+# Assembler Code kroz Compiler
+# gcc -Wall -O2 -g -o syscall_bechmark.S syscall_benchmark.c
